@@ -13,7 +13,6 @@
     <el-radio v-model="radio" label="1">备选项</el-radio>
     <el-radio v-model="radio" label="2">备选项</el-radio>
     <el-menu
-
       :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect">
       <el-menu-item index="1">处理中心</el-menu-item>
       <el-submenu index="2">
