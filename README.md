@@ -1,6 +1,5 @@
-# auto-theme
-
-> A Vue.js project
+# element-theme
+elementUi theme
 
 ## Build Setup
 
