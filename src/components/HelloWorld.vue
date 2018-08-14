@@ -9,7 +9,7 @@
       </el-color-picker>
       <select-theme :themeColor="selectedTheme"></select-theme>
     </div>
-    <el-button type="primary">lallaaa</el-button>
+    <el-button type="primary" plain>lallaaa</el-button>
     <el-radio v-model="radio" label="1">备选项</el-radio>
     <el-radio v-model="radio" label="2">备选项</el-radio>
     <el-menu

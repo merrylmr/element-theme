@@ -442,7 +442,7 @@ export const eleStyle = (rgb) => {
 
 .el-button.is-plain:focus, .el-button.is-plain:hover {
   border-color: ${rgb};
-  color: ${rgb}
+  color: #fff;
 }
 
 .el-button.is-active, .el-button.is-plain:active {
@@ -456,8 +456,9 @@ export const eleStyle = (rgb) => {
 }
 
 .el-button--primary:focus, .el-button--primary:hover {
-  background: #4a95e3;
-  border-color: #4a95e3;
+  background: ${rgb};
+  border-color: ${rgb};
+  color:#fff;
 }
 
 .el-button--primary.is-active, .el-button--primary:active {
