@@ -1,6 +1,6 @@
 {
   "name": "element-theme-varible",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "自定义elementUI的主题色",
   "author": "merrylmr@qq.com",
   "private": false,
@@ -15,7 +15,16 @@
     "README.md",
     "utils"
   ],
-  "github": "https://github.com/merrylmr/element-theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/merrylmr/element-theme"
+  },
+  "keywords": [
+    "vue",
+    "element-ui",
+    "element-theme",
+    "element-theme-varible"
+  ],
   "engines": {
     "node": ">= 6.0.0",
     "npm": ">= 3.0.0"
