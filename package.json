@@ -11,7 +11,8 @@
     "css-color-function": "1.3.3"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "README.md"
   ],
   "engines": {
     "node": ">= 6.0.0",
