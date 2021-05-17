@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "自定义elementUI的主题色",
   "author": "merrylmr@qq.com",
-  "private": true,
+  "private": false,
   "main": "indedx.js",
   "scripts": {
   },
