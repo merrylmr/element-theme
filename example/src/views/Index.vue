@@ -49,7 +49,6 @@
         </el-submenu>
       </el-menu>
     </el-aside>
-
     <el-container>
       <el-header class="header-component" style="color:#fff">
         <el-row>
@@ -121,28 +120,35 @@
 </style>
 
 <script>
-  import ThemeConfig from '@/utils/theme.js'
-  console.log('ThemeConfig', ThemeConfig);
-  export default {
-    data() {
-      const item = {
-        date: '2016-05-02',
-        name: '王小虎',
-        address: '上海市普陀区金沙江路 1518 弄'
-      };
-      return {
-        tableData: Array(20).fill(item),
-        color1: '#409EFF',
-        activeIndex: '1',
-      }
-    },
-    mixins: [ThemeConfig],
-    methods: {
-      changeTheme(val){
-        this.colors.primary = val;
-        this.getIndexStyle();
-        this.genStyle();
+// 封装的方法
+import ElementTheme from '../../../index.js'
+
+export default {
+  data() {
+    const item = {
+      date: '2016-05-02',
+      name: '王小虎',
+      address: '上海市普陀区金沙江路 1518 弄'
+    };
+    return {
+      tableData: Array(20).fill(item),
+      activeIndex: '1',
+      colors: {
+        primary: '#581212'
       }
     }
-  };
+  },
+  methods: {
+    changeTheme(val) {
+      this.colors.primary = val;
+      ElementTheme(val);
+      // this.getIndexStyle();
+      // this.genStyle();
+    }
+  },
+  mounted() {
+    // 传入主题色
+    ElementTheme(this.colors.primary);
+  }
+};
 </script>

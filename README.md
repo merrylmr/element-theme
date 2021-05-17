@@ -1,20 +1,29 @@
-# element-theme
-elementUi theme
+## 介绍
 
-## Build Setup
+动态传入主题色，生成elementUI的主题色； 
 
-``` bash
-# install dependencies
-npm install
+应用场景：同一个系统，不同用户看到的皮肤不一样
 
-# serve with hot reload at localhost:8080
-npm run dev
+## 使用
 
-# build for production with minification
-npm run build
+1. 安装
 
-# build for production and view the bundle analyzer report
-npm run build --report
+```javascript
+npm
+install
+element - theme
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+2 .引入插件
+
+```javascript
+import ElementTheme from 'ElementTheme'
+```
+
+3.执行此方法
+
+```javascript
+mounted() {
+    ElementTheme('#f00', '2.5.11')
+}
+```
