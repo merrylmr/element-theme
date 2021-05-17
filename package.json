@@ -1,6 +1,6 @@
 {
   "name": "element-theme-varible",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "自定义elementUI的主题色",
   "author": "merrylmr@qq.com",
   "private": false,
@@ -15,6 +15,7 @@
     "README.md",
     "utils"
   ],
+  "github": "https://github.com/merrylmr/element-theme",
   "engines": {
     "node": ">= 6.0.0",
     "npm": ">= 3.0.0"
