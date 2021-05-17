@@ -12,7 +12,8 @@
   },
   "files": [
     "index.js",
-    "README.md"
+    "README.md",
+    "utils"
   ],
   "engines": {
     "node": ">= 6.0.0",

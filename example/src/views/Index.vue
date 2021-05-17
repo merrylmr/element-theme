@@ -121,7 +121,7 @@
 
 <script>
 // 封装的方法
-import ElementTheme from '../../../index.js'
+import ElementTheme from 'element-theme-varible'
 
 export default {
   data() {
