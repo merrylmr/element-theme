@@ -12,7 +12,7 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "css-color-function": "^1.3.3",
-    "element-theme-varible": "^1.0.0",
+    "element-theme-varible": "^1.0.1",
     "element-ui": "^2.4.3",
     "vue": "^2.6.11",
     "vue-router": "^3.0.1"

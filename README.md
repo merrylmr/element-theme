@@ -8,22 +8,15 @@
 
 1. 安装
 
-```javascript
-npm
-install
-element - theme
-```
+`npm install element-theme-varible --save`
 
 2 .引入插件
 
-```javascript
-import ElementTheme from 'ElementTheme'
-```
+`import ElementTheme from 'ElementTheme'`
 
 3.执行此方法
 
 ```javascript
-mounted() {
-    ElementTheme('#f00', '2.5.11')
-}
+// 第一个参数：主题色，第二个主题色：版本
+ElementTheme('#f00', '2.5.11')
 ```
