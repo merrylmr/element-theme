@@ -2837,7 +2837,7 @@ crypto-browserify@^3.11.0:
     randombytes "^2.0.0"
     randomfill "^1.0.3"
 
-css-color-function@^1.3.3:
+css-color-function@1.3.3, css-color-function@^1.3.3:
   version "1.3.3"
   resolved "https://registry.yarnpkg.com/css-color-function/-/css-color-function-1.3.3.tgz#8ed24c2c0205073339fafa004bc8c141fccb282e"
   integrity sha1-jtJMLAIFBzM5+voAS8jBQfzLKC4=
@@ -3179,9 +3179,9 @@ dns-equal@^1.0.0:
   integrity sha1-s55/HabrCnW6nBcySzR1PEfgZU0=
 
 dns-packet@^1.3.1:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/dns-packet/-/dns-packet-1.3.1.tgz#12aa426981075be500b910eedcd0b47dd7deda5a"
-  integrity sha512-0UxfQkMhYAUaZI+xrNZOz/as5KgDU0M/fQ9b6SpkyLbk3GEswDi6PADJVaYJradtRVsRIlF1zLyOodbcTCDzUg==
+  version "1.3.4"
+  resolved "https://registry.yarnpkg.com/dns-packet/-/dns-packet-1.3.4.tgz#e3455065824a2507ba886c55a89963bb107dec6f"
+  integrity sha512-BQ6F4vycLXBvdrJZ6S3gZewt6rcrks9KBgM9vrhW+knGRqc8uEdT7fuCwloc7nny5xNoMJ17HGH0R/6fpo8ECA==
   dependencies:
     ip "^1.1.0"
     safe-buffer "^5.0.1"
@@ -3304,6 +3304,13 @@ electron-to-chromium@^1.3.723:
   version "1.3.727"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.727.tgz#857e310ca00f0b75da4e1db6ff0e073cc4a91ddf"
   integrity sha512-Mfz4FIB4FSvEwBpDfdipRIrwd6uo8gUDoRDF4QEYb4h4tSuI3ov594OrjU6on042UlFHouIJpClDODGkPcBSbg==
+
+element-theme-varible@^1.0.1:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/element-theme-varible/-/element-theme-varible-1.0.4.tgz#3c3b735efc4922a5ae8e79e7467a858dc8d089c8"
+  integrity sha512-rLtog+XDLXGU/oy3JiQ9h19j6TLPTc55Dq9XQQtjv8U4tR7R8dO0koQf7+SiClXSWMQRZSX9sNzxdxXs/zSjhA==
+  dependencies:
+    css-color-function "1.3.3"
 
 element-ui@^2.4.3:
   version "2.15.1"
