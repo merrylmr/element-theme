@@ -2837,7 +2837,7 @@ crypto-browserify@^3.11.0:
     randombytes "^2.0.0"
     randomfill "^1.0.3"
 
-css-color-function@^1.3.3:
+css-color-function@1.3.3, css-color-function@^1.3.3:
   version "1.3.3"
   resolved "https://registry.yarnpkg.com/css-color-function/-/css-color-function-1.3.3.tgz#8ed24c2c0205073339fafa004bc8c141fccb282e"
   integrity sha1-jtJMLAIFBzM5+voAS8jBQfzLKC4=
@@ -3304,6 +3304,13 @@ electron-to-chromium@^1.3.723:
   version "1.3.727"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.727.tgz#857e310ca00f0b75da4e1db6ff0e073cc4a91ddf"
   integrity sha512-Mfz4FIB4FSvEwBpDfdipRIrwd6uo8gUDoRDF4QEYb4h4tSuI3ov594OrjU6on042UlFHouIJpClDODGkPcBSbg==
+
+element-theme-varible@^1.0.1:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/element-theme-varible/-/element-theme-varible-1.0.4.tgz#3c3b735efc4922a5ae8e79e7467a858dc8d089c8"
+  integrity sha512-rLtog+XDLXGU/oy3JiQ9h19j6TLPTc55Dq9XQQtjv8U4tR7R8dO0koQf7+SiClXSWMQRZSX9sNzxdxXs/zSjhA==
+  dependencies:
+    css-color-function "1.3.3"
 
 element-ui@^2.4.3:
   version "2.15.1"
@@ -8025,9 +8032,9 @@ url-loader@^2.2.0:
     schema-utils "^2.5.0"
 
 url-parse@^1.4.3, url-parse@^1.5.1:
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.5.1.tgz#d5fa9890af8a5e1f274a2c98376510f6425f6e3b"
-  integrity sha512-HOfCOUJt7iSYzEx/UqgtwKRMC6EU91NFhsCHMv9oM03VJcVo2Qrp8T8kI9D7amFf1cu+/3CEhgb3rF9zL7k85Q==
+  version "1.5.7"
+  resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.5.7.tgz#00780f60dbdae90181f51ed85fb24109422c932a"
+  integrity sha512-HxWkieX+STA38EDk7CE9MEryFeHCKzgagxlGvsdS7WBImq9Mk+PGwiT56w82WI3aicwJA8REp42Cxo98c8FZMA==
   dependencies:
     querystringify "^2.1.1"
     requires-port "^1.0.0"
